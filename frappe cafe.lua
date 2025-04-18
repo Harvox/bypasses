@@ -1,6 +1,7 @@
 --[[ 
 bruh theyre using dev forum env leak detect
 ]]
+if game.PlaceId ~= 5580097107 then return end
 function lol() end
 
 local Old; Old = hookfunction(getrenv().getfenv, function(...)
